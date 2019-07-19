@@ -14,9 +14,13 @@ The usual installation for Blender add-ons. Probably the easiest is:
 3. Click `Install Add-on from File` and select the `.zip`.
 4. Make sure to check the checkmark box, and `Save User Settings` at the bottom so you don't have to reinstall again later.
 
-## Compatability with TetGen versions
+Alternatively use the `fast_install.sh` script, and make sure to change the directory where Blender add-ons are installed to your systems.
+
+## Compatability with TetGen and Blender versions
 
 Supports in principle all versions of TetGen; only the output is needed. File formats are described [here](http://wias-berlin.de/software/tetgen/1.5/doc/manual/manual006.html).
+
+Tested on Blender `2.7.9b`.
 
 ## Flags to pass to TetGen
 
