@@ -13,7 +13,7 @@ bl_info = {
     "blender": (2, 7, 9),
     "location": "View3D > Add > Mesh",
     "warning": "",
-    "wiki_url" : "http://salk.edu",
+    "wiki_url" : "https://github.com/smrfeld/TetGen-Viz-Blender",
     "license": "GPL v3",
     "category": "Mesh"}
 
