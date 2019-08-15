@@ -6,6 +6,7 @@ from bpy.props import BoolProperty, CollectionProperty, EnumProperty, \
 import mathutils
 
 from . import gui_tetgen_delaunay_objs
+from . import gui_tetgen_delaunay_operators
 from . import gui_tetgen_voronoi_objs
 from . import gui_tetgen_voronoi_operators
 
@@ -77,6 +78,10 @@ class TVizPropGroup(bpy.types.PropertyGroup):
         col.operator("tviz.delaunay_obj_import", icon='ZOOMIN', text="")
         col.operator("tviz.delaunay_obj_remove", icon='ZOOMOUT', text="")
         col.operator("tviz.delaunay_obj_remove_all", icon='X', text="")
+
+        row = box.row()
+        row.label("Export selected object to XML")
+        row.operator("tviz.delaunay_obj_export_xml")
 
         # Voronoi
 
